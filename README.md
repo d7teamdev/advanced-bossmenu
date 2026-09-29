@@ -15,7 +15,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 
 > This repository is documentation only. The resource is sold on our store and downloaded from the Client Area after you redeem your code.
 
-[Website](https://d7team.com/products/advanced-bossmenu) · [Installation guide](https://d7team.com/guides/advanced-bossmenu) · [Store](https://store.d7team.com) · [Discord](https://discord.gg/d-7)
+[Website](https://d7team.com/products/advanced-bossmenu) · [Installation guide](https://d7team.com/guides/advanced-bossmenu) · [Store](https://store.d7team.com/advanced-bossmenu/p1095032724) · [Discord](https://discord.gg/d-7)
 
 ### At a glance
 
@@ -94,7 +94,7 @@ Configuration, first start, updates and every console message explained: [Instal
 - **$34.99** — One-time purchase of this script
 - **$7.99 / month** — Scripts subscription (Advanced MDT and Advanced BossMenu): every script, free IP change during the subscription, and free updates
 
-[Store](https://store.d7team.com)
+[Store](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
 ### FAQ
 
@@ -157,7 +157,7 @@ Advanced BossMenu تابلت نظيف لإدارة الوظيفة: الموظف�
 
 > هذا المستودع للتعريف والشرح فقط. الريسورس يُباع في متجرنا، وتحمّله من منطقة العميل بعد ما تفعّل الكود
 
-[الموقع](https://d7team.com/ar/products/advanced-bossmenu) · [شرح التثبيت](https://d7team.com/ar/guides/advanced-bossmenu) · [المتجر](https://store.d7team.com) · [الدسكورد](https://discord.gg/d-7)
+[الموقع](https://d7team.com/ar/products/advanced-bossmenu) · [شرح التثبيت](https://d7team.com/ar/guides/advanced-bossmenu) · [المتجر](https://store.d7team.com/advanced-bossmenu/p1095032724) · [الدسكورد](https://discord.gg/d-7)
 
 ### نظرة سريعة
 
@@ -240,7 +240,7 @@ ensure d7-bossmenu
 - **⁦$34.99⁩** — شراء هذا السكربت مرة وحدة
 - **⁦$7.99⁩ بالشهر** — اشتراك السكربتات (Advanced MDT و Advanced BossMenu): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
 
-[المتجر](https://store.d7team.com)
+[المتجر](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
 ### الأسئلة الشائعة
 
