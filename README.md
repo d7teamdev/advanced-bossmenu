@@ -91,8 +91,8 @@ Configuration, first start, updates and every console message explained: [Instal
 
 ### Pricing
 
-- **$34.99** — One-time purchase of this script
-- **$7.99 / month** — Scripts subscription (Advanced MDT and Advanced BossMenu): every script, free IP change during the subscription, and free updates
+- **$34.99** — [One-time purchase of this script](https://store.d7team.com/advanced-bossmenu/p1095032724)
+- **$7.99 / month** — [Scripts subscription (Advanced MDT and Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
 
 [Store](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
@@ -237,8 +237,8 @@ ensure d7-bossmenu
 
 ### الأسعار
 
-- **⁦$34.99⁩** — شراء هذا السكربت مرة وحدة
-- **⁦$7.99⁩ بالشهر** — اشتراك السكربتات (Advanced MDT و Advanced BossMenu): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
+- **⁦$34.99⁩** — [شراء هذا السكربت مرة وحدة](https://store.d7team.com/advanced-bossmenu/p1095032724)
+- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (Advanced MDT و Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
 
 [المتجر](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
