@@ -1,15 +1,15 @@
 <p align="center"><img src="https://d7team.com/icon-512.png" width="88" alt="Delta Seven"></p>
 <h1 align="center">Advanced BossMenu</h1>
-<p align="center"><b>FiveM Boss Menu for QBCore, QBox & CFW</b></p>
+<p align="center"><b>FiveM Boss Menu for QBCore, QBox, ESX & CFW</b></p>
 <p align="center"><a href="#english">English</a> · <a href="#arabic">العربية</a></p>
 
 <p align="center"><a href="https://d7team.com/products/advanced-bossmenu"><img src="https://d7team.com/product-previews/advanced-bossmenu.webp" alt="Advanced BossMenu" width="860"></a></p>
 
 <a id="english"></a>
 
-## Advanced BossMenu — FiveM Boss Menu for QBCore, QBox & CFW
+## Advanced BossMenu — FiveM Boss Menu for QBCore, QBox, ESX & CFW
 
-FiveM boss menu for every job on QBCore, QBox & CFW: hiring, ranks, duty tracking, points with auto promotion, salaries, society funds and wings.
+FiveM boss menu for every job on QBCore, QBox, ESX & CFW: hiring, ranks, duty tracking, points with auto promotion, salaries, society funds and wings.
 
 Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, points, duty tracking, salaries, the society account and permissions, without bloated UI or unnecessary workflows.
 
@@ -21,7 +21,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 
 | | |
 |---|---|
-| **Works with** | QBCore and QBox servers, CFW included |
+| **Works with** | QBCore, QBox and ESX servers, CFW included |
 | **Jobs** | Every job — police, EMS, businesses and more |
 | **Opening** | Tablet item, /bosstablet command or a key |
 | **Interaction** | Target, Interact or marker |
@@ -65,7 +65,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 
 ### Requirements
 
-- A QBCore or QBox server, CFW included
+- A QBCore, QBox or ESX server, CFW included
 - oxmysql
 - An Advanced BossMenu licence or the scripts subscription
 
@@ -101,7 +101,7 @@ Configuration, first start, updates and every console message explained: [Instal
 <details>
 <summary><b>Which servers does Advanced BossMenu work on?</b></summary>
 
-QBCore and QBox servers, CFW included.
+QBCore, QBox and ESX servers, CFW included.
 
 </details>
 
@@ -139,8 +139,8 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ### More from Delta Seven
 
-- [Delta Panel](https://github.com/d7teamdev/delta-panel) — FiveM Admin Panel for QBCore, QBox & CFW Servers
-- [Advanced MDT](https://github.com/d7teamdev/advanced-mdt) — FiveM Police MDT for QBCore, QBox & CFW
+- [Delta Panel](https://github.com/d7teamdev/delta-panel) — FiveM Admin Panel for QBCore, QBox, ESX, vRP & CFW Servers
+- [Advanced MDT](https://github.com/d7teamdev/advanced-mdt) — FiveM Police MDT for QBCore, QBox, ESX & CFW
 - [Add-on FiveM cars](https://d7team.com/cars)
 
 ---
@@ -149,9 +149,9 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 <div dir="rtl">
 
-## بوس منيو المطور — سكربت بوس منيو فايف ام لـ QBCore و QBox و CFW
+## بوس منيو المطور — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
 
-بوس منيو فايف ام لكل الوظائف في QBCore و QBox و CFW: التوظيف، الرتب، تتبع الدوام، النقاط والترقية التلقائية، الرواتب، حساب السوسايتي والونقات.
+بوس منيو فايف ام لكل الوظائف في QBCore و QBox و ESX و CFW: التوظيف، الرتب، تتبع الدوام، النقاط والترقية التلقائية، الرواتب، حساب السوسايتي والونقات.
 
 بوس منيو المطور تابلت نظيف لإدارة الوظيفة: الموظفين والرتب والونقات والنقاط وتتبع الساعات والرواتب وحساب السوسايتي والصلاحيات، بدون تعقيد أو واجهات زائدة.
 
@@ -163,7 +163,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 | | |
 |---|---|
-| **يشتغل مع** | سيرفرات QBCore و QBox، ومعها CFW |
+| **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
 | **الوظائف** | كل الوظائف — الشرطة، الإسعاف، المطاعم وغيرها |
 | **طريقة الفتح** | آيتم التابلت، أمر ⁦/bosstablet⁩، أو زر |
 | **التفاعل** | Target أو Interact أو ماركر |
@@ -207,7 +207,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ### المتطلبات
 
-- سيرفر QBCore أو QBox، ومعها CFW
+- سيرفر QBCore أو QBox أو ESX، ومعها CFW
 - oxmysql
 - ترخيص بوس منيو المطور أو اشتراك السكربتات
 
@@ -247,7 +247,7 @@ ensure d7-bossmenu
 <details>
 <summary><b>على أي سيرفرات يشتغل Advanced BossMenu؟</b></summary>
 
-سيرفرات QBCore و QBox، ومعها CFW
+سيرفرات QBCore و QBox و ESX، ومعها CFW
 
 </details>
 
@@ -285,8 +285,8 @@ ensure d7-bossmenu
 
 ### منتجات ثانية من دلتا سفن
 
-- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox
-- [ام دي تي المطور](https://github.com/d7teamdev/advanced-mdt) — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW
+- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
+- [ام دي تي المطور](https://github.com/d7teamdev/advanced-mdt) — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
