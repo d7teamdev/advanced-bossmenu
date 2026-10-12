@@ -39,7 +39,6 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 #### Duty and points
 
 - Clock in and out, with lifetime and weekly duty time and an activity chart.
-- Duty is recorded by the server only, so a modified game client cannot start or stop anyone's duty.
 - Points earned per hour on duty.
 - Points needed for each grade, with automatic promotion and demotion.
 - Add or remove points for one employee or for everyone.
@@ -54,7 +53,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 
 - Bonus multiplier — x2 or x3 points — for a set number of hours.
 - Weekly reset of duty hours.
-- Wings: assign or remove units such as SWAT or Air Unit, each with its own label and a minimum grade the tablet shows and enforces.
+- Wings: assign or remove units such as SWAT or Air Unit, each with its own name and minimum grade.
 
 #### Configuration and logs
 
@@ -62,11 +61,13 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 - Turn each feature on or off per job: employees, duty, points, finance, hire, rank, fire, wings, manager, bonus and pay.
 - A grade permission for each tool.
 - Discord logs for hiring, ranks, points, finance, bonus, manager tools and wings.
-- Points and wings are read by Advanced MDT.
+- Points and wings show in Advanced MDT.
 
 ### Requirements
 
-- A QBCore, QBox or ESX server, CFW included
+- **QBCore:** A QBCore server, CFW included
+- **QBox:** A QBox server with qbx_core and ox_lib
+- **ESX:** An ESX server with es_extended
 - oxmysql
 - An Advanced BossMenu licence or the scripts subscription
 
@@ -80,9 +81,30 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 6. Add a profile for each job in config/config.lua.
 7. In server.cfg, start it after your database and framework:
 
+   **QBCore**
+
    ```cfg
    ensure oxmysql
    ensure qb-core
+   ensure d7-bossmenu
+   ```
+
+
+   **QBox**
+
+   ```cfg
+   ensure oxmysql
+   ensure ox_lib
+   ensure qbx_core
+   ensure d7-bossmenu
+   ```
+
+
+   **ESX**
+
+   ```cfg
+   ensure oxmysql
+   ensure es_extended
    ensure d7-bossmenu
    ```
 
@@ -94,8 +116,8 @@ Configuration, first start, updates and every console message explained: [Instal
 
 - **$34.99** — [One-time purchase of this script](https://store.d7team.com/advanced-bossmenu/p1095032724)
 - **$7.99 / month** — [Scripts subscription (Advanced MDT and Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
-- **$13.99 / month** — [Premium Bundle (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
-- **$34.99 / 3 months** — [Premium Bundle, 3 months](https://store.d7team.com/premium-bundle-90-days/p645358899)
+- **$13.99 / month** — [Premium Plan (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **$34.99 / quarter** — [Premium Plan, quarterly](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [Store](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
@@ -130,9 +152,9 @@ Yes. It pays employees for time on duty on a set interval, and can take the mone
 </details>
 
 <details>
-<summary><b>How much does it cost?</b></summary>
+<summary><b>How much does Advanced BossMenu cost?</b></summary>
 
-$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced BossMenu and Advanced MDT together. It also comes with Delta Panel and Advanced MDT in the Premium Bundle, at $13.99 a month or $34.99 for 3 months.
+It comes with several options: buy it once for $34.99, get it in the scripts subscription with Advanced MDT for $7.99 a month, or in the Premium Plan with Delta Panel and Advanced MDT from $13.99 a month.
 
 </details>
 
@@ -152,11 +174,11 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 <div dir="rtl">
 
-## بوس منيو المطور — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
+## بوس منيو متطور — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
 
 بوس منيو فايف ام لكل الوظائف في QBCore و QBox و ESX و CFW: التوظيف، الرتب، تتبع الدوام، النقاط والترقية التلقائية، الرواتب، حساب السوسايتي والونقات.
 
-بوس منيو المطور تابلت نظيف لإدارة الوظيفة: الموظفين والرتب والونقات والنقاط وتتبع الساعات والرواتب وحساب السوسايتي والصلاحيات، بدون تعقيد أو واجهات زائدة.
+بوس منيو متطور تابلت نظيف لإدارة الوظيفة: الموظفين والرتب والونقات والنقاط وتتبع الساعات والرواتب وحساب السوسايتي والصلاحيات، بدون تعقيد أو واجهات زائدة.
 
 > هذا المستودع للتعريف والشرح فقط. الريسورس يُباع في متجرنا، وتحمّله من منطقة العميل بعد ما تفعّل الكود
 
@@ -184,7 +206,6 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 #### الديوتي والنقاط
 
 - دخول وخروج من الدوام، مع إجمالي الساعات والأسبوعي ورسم للنشاط
-- الدوام يتسجّل من السيرفر بس، فما أحد يقدر من جهازه يشغّل أو يوقف دوام غيره
 - نقاط تنكسب على كل ساعة دوام
 - نقاط مطلوبة لكل رتبة، مع ترقية وتخفيض تلقائي
 - إضافة أو خصم نقاط لموظف واحد أو للكل
@@ -199,7 +220,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 - مضاعف بونص — نقاط x2 أو x3 — لعدد ساعات محدد
 - تصفير أسبوعي لساعات الدوام
-- الونقات: إعطاء أو إزالة وحدات مثل SWAT أو الجوية، كل وحدة باسمها وأقل رتبة لها، والتابلت يعرضها وما يقبل موظف أقل منها
+- الونقات: إعطاء أو إزالة وحدات مثل SWAT أو الجوية، ولكل وحدة اسمها وأقل رتبة لها
 
 #### الإعداد واللوقات
 
@@ -207,29 +228,60 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 - تفعيل أو تعطيل كل ميزة لكل وظيفة: الموظفين، الديوتي، النقاط، المالية، التوظيف، الرتب، الفصل، الونقات، الإدارة، البونص والرواتب
 - صلاحية رتبة لكل أداة
 - لوقات دسكورد للتوظيف والرتب والنقاط والمالية والبونص وأدوات الإدارة والونقات
-- النقاط والونقات يقراها Advanced MDT
+- النقاط والونقات تظهر في ام دي تي متطور
 
 ### المتطلبات
 
-- سيرفر QBCore أو QBox أو ESX، ومعها CFW
+- **QBCore:** سيرفر QBCore، ومعها CFW
+- **QBox:** سيرفر QBox مع qbx_core و ox_lib
+- **ESX:** سيرفر ESX مع es_extended
 - oxmysql
-- ترخيص بوس منيو المطور أو اشتراك السكربتات
+- ترخيص بوس منيو متطور أو اشتراك السكربتات
 
 ### التثبيت
 
-1. اشترِ بوس منيو المطور أو اشتراك السكربتات من متجرنا.
+1. اشترِ بوس منيو متطور أو اشتراك السكربتات من متجرنا.
 2. سجّل دخولك في panel.d7team.com عن طريق دسكورد.
 3. منطقة العميل ← تفعيل كود: اكتب الكود وآيبي سيرفرك.
-4. حمّل d7-bossmenu من منطقة العميل وحطه في مجلد resources حقك.
-5. أضف آيتم departmentlaptop لآيتمات الإنفنتري حقك.
-6. أضف في config/config.lua بروفايل لكل وظيفة.
+4. حمّل d7-bossmenu من منطقة العميل وحطه في مجلد resources بسيرفرك.
+5. أضف آيتم departmentlaptop لقائمة الآيتمات في الإنفنتري.
+6. أضف في ملف config/config.lua بروفايل لكل وظيفة.
 7. في server.cfg، شغّله بعد قاعدة البيانات والفريم وورك:
+
+**QBCore**
 
 </div>
 
 ```cfg
 ensure oxmysql
 ensure qb-core
+ensure d7-bossmenu
+```
+
+<div dir="rtl">
+
+
+**QBox**
+
+</div>
+
+```cfg
+ensure oxmysql
+ensure ox_lib
+ensure qbx_core
+ensure d7-bossmenu
+```
+
+<div dir="rtl">
+
+
+**ESX**
+
+</div>
+
+```cfg
+ensure oxmysql
+ensure es_extended
 ensure d7-bossmenu
 ```
 
@@ -242,46 +294,46 @@ ensure d7-bossmenu
 ### الأسعار
 
 - **⁦$34.99⁩** — [شراء هذا السكربت مرة وحدة](https://store.d7team.com/advanced-bossmenu/p1095032724)
-- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (Advanced MDT و Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
-- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و Advanced MDT و Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
-- **⁦$34.99⁩ كل 3 أشهر** — [باقة بريميوم لمدة 3 أشهر](https://store.d7team.com/premium-bundle-90-days/p645358899)
+- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
+- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **⁦$34.99⁩ ربع سنوي** — [باقة بريميوم، ربع سنوي](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [المتجر](https://store.d7team.com/advanced-bossmenu/p1095032724)
 
 ### الأسئلة الشائعة
 
 <details>
-<summary><b>على أي سيرفرات يشتغل Advanced BossMenu؟</b></summary>
+<summary><b>على أي سيرفرات يشتغل بوس منيو متطور؟</b></summary>
 
 سيرفرات QBCore و QBox و ESX، ومعها CFW
 
 </details>
 
 <details>
-<summary><b>يشتغل لكل الوظائف؟</b></summary>
+<summary><b>هل يشتغل مع كل الوظائف؟</b></summary>
 
-إيه. كل وظيفة لها بروفايل ببياناتها ومميزاتها وصلاحيات رتبها ولوقاتها — الشرطة، الإسعاف، المطاعم أو أي وظيفة ثانية.
+نعم. كل وظيفة لها بروفايل خاص ببياناتها ومميزاتها وصلاحيات رتبها ولوقاتها، سواء كانت الشرطة أو الإسعاف أو المطاعم أو أي وظيفة ثانية.
 
 </details>
 
 <details>
 <summary><b>كيف تشتغل الترقية التلقائية؟</b></summary>
 
-الموظف يكسب نقاط على وقت الدوام. كل رتبة لها عدد نقاط، والي يوصله أو ينزل عنه يترقى أو ينخفض تلقائياً. وتقدر تطفيها.
+الموظف يكسب نقاط على وقت الدوام، ولكل رتبة عدد نقاط محدد، واللي يوصله يترقى واللي ينزل عنه ينخفض تلقائياً. وتقدر توقفها من الإعدادات.
 
 </details>
 
 <details>
-<summary><b>يصرف رواتب؟</b></summary>
+<summary><b>هل يصرف رواتب للموظفين؟</b></summary>
 
-إيه. يصرف للموظفين على وقت الدوام كل فترة محددة، ويقدر يسحبها من حساب السوسايتي للوظيفة.
+نعم. يصرف للموظفين رواتب على وقت الدوام كل فترة محددة، ويقدر يسحبها من حساب السوسايتي للوظيفة.
 
 </details>
 
 <details>
-<summary><b>كم سعره؟</b></summary>
+<summary><b>كم سعر بوس منيو متطور؟</b></summary>
 
-⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced BossMenu و Advanced MDT مع بعض. ويجي كمان مع لوحة دلتا و Advanced MDT في باقة بريميوم بـ ⁦$13.99⁩ بالشهر أو ⁦$34.99⁩ لمدة 3 أشهر.
+متوفر بأكثر من خيار: شراء مرة وحدة بـ ⁦$34.99⁩، أو ضمن اشتراك السكربتات مع ام دي تي متطور بـ ⁦$7.99⁩ بالشهر، أو ضمن باقة بريميوم مع لوحة دلتا و ام دي تي متطور تبدأ من ⁦$13.99⁩ بالشهر.
 
 </details>
 
@@ -291,8 +343,8 @@ ensure d7-bossmenu
 
 ### منتجات ثانية من دلتا سفن
 
-- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
-- [ام دي تي المطور](https://github.com/d7teamdev/advanced-mdt) — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
+- [لوحة دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
+- [ام دي تي متطور](https://github.com/d7teamdev/advanced-mdt) — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
