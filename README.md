@@ -39,6 +39,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 #### Duty and points
 
 - Clock in and out, with lifetime and weekly duty time and an activity chart.
+- Duty is recorded by the server only, so a modified game client cannot start or stop anyone's duty.
 - Points earned per hour on duty.
 - Points needed for each grade, with automatic promotion and demotion.
 - Add or remove points for one employee or for everyone.
@@ -53,7 +54,7 @@ Advanced BossMenu is a clean tablet for running a job: employees, ranks, wings, 
 
 - Bonus multiplier — x2 or x3 points — for a set number of hours.
 - Weekly reset of duty hours.
-- Wings: assign or remove units such as SWAT or Air Unit, each with its own label and minimum grade.
+- Wings: assign or remove units such as SWAT or Air Unit, each with its own label and a minimum grade the tablet shows and enforces.
 
 #### Configuration and logs
 
@@ -131,7 +132,7 @@ Yes. It pays employees for time on duty on a set interval, and can take the mone
 <details>
 <summary><b>How much does it cost?</b></summary>
 
-$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced BossMenu and Advanced MDT together.
+$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced BossMenu and Advanced MDT together. It also comes with Delta Panel and Advanced MDT in the Premium Bundle, at $13.99 a month or $34.99 for 3 months.
 
 </details>
 
@@ -183,6 +184,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 #### الديوتي والنقاط
 
 - دخول وخروج من الدوام، مع إجمالي الساعات والأسبوعي ورسم للنشاط
+- الدوام يتسجّل من السيرفر بس، فما أحد يقدر من جهازه يشغّل أو يوقف دوام غيره
 - نقاط تنكسب على كل ساعة دوام
 - نقاط مطلوبة لكل رتبة، مع ترقية وتخفيض تلقائي
 - إضافة أو خصم نقاط لموظف واحد أو للكل
@@ -197,7 +199,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 - مضاعف بونص — نقاط x2 أو x3 — لعدد ساعات محدد
 - تصفير أسبوعي لساعات الدوام
-- الونقات: إعطاء أو إزالة وحدات مثل SWAT أو الجوية، كل وحدة باسمها وأقل رتبة لها
+- الونقات: إعطاء أو إزالة وحدات مثل SWAT أو الجوية، كل وحدة باسمها وأقل رتبة لها، والتابلت يعرضها وما يقبل موظف أقل منها
 
 #### الإعداد واللوقات
 
@@ -279,7 +281,7 @@ ensure d7-bossmenu
 <details>
 <summary><b>كم سعره؟</b></summary>
 
-⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced BossMenu و Advanced MDT مع بعض.
+⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced BossMenu و Advanced MDT مع بعض. ويجي كمان مع لوحة دلتا و Advanced MDT في باقة بريميوم بـ ⁦$13.99⁩ بالشهر أو ⁦$34.99⁩ لمدة 3 أشهر.
 
 </details>
 
